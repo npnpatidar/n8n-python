@@ -1,6 +1,6 @@
 FROM n8nio/n8n
 USER root
-RUN apk add --update python3 py3-pip nvim git lazygit 
+RUN apk add --update python3 py3-pip neovim git lazygit 
 
 RUN git clone https://github.com/LazyVim/starter ~/.config/nvim
 # Download the latest installer
